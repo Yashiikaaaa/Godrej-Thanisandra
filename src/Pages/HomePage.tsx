@@ -1,5 +1,5 @@
 import phoneIcon from "../assets/phone.svg";
-import plotImage from "../assets/plot-image.svg";
+import plotImage from "../assets/godrej.jpg";
 import lines from "../assets/homepage-lines.svg";
 
 interface HomePageProps {
@@ -12,12 +12,12 @@ function HomePage({ openModal }: HomePageProps) {
   {/* Heading */}
   <div className="px-4 md:px-[77px] pt-6 text-left text-[#26650B]">
     <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-      New Launch - Bengaluru
+      New Launch - Cat A Builder
     </h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mt-1">
-    Premium Township in Thanisandra
-    <br/>
-    from Cat A Builder
+    Luxury Apartments in Thanisandra, Bengaluru
+    <br />
+     
     </h2>
   </div>
 
@@ -89,7 +89,7 @@ function HomePage({ openModal }: HomePageProps) {
         className="bg-green-900 text-white text-center py-4 mt-10 flex justify-center items-center gap-2 rounded-none md:rounded-full px-4 cursor-pointer"
       >
         <img src={phoneIcon} alt="Phone" className="w-7 h-7 md:w-10 md:h-10" />
-        <span className="text-lg md:text-3xl font-bold">+91 8123130034</span>
+        <span className="text-lg md:text-3xl font-bold">+91 63642 54487</span>
       </a>
     </div>
   );
